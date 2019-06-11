@@ -17,6 +17,6 @@ def assign_rooms(attendees)
     name = element
     index = attendees.index(element)
     index += 1
-    puts "Hello #{name}! You'll be assigned to room #{index + 1}!"
+    "Hello #{name}! You'll be assigned to room #{index + 1}!"
   end
 end
