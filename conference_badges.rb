@@ -13,10 +13,10 @@ def batch_badge_creator(name_array)
 end
 
 def assign_rooms(attendees)
-  attendees.each do |element|
-    name = element
-    index = attendees.index(element)
-    index += 1
-    "Hello #{name}! You'll be assigned to room #{index + 1}!"
+  rooms = 0
+  while rooms < 7
+    name = attendees[rooms]
+    "Hello, #{name}! You'll be assigned to #{rooms + 1}!"
+
   end
 end
