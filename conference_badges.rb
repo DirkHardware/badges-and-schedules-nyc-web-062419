@@ -10,7 +10,6 @@ def batch_badge_creator(name_array)
     list << "Hello, my name is #{name}."
   end
   list
-  puts list
 end
 
 def assign_rooms(attendees)
