@@ -24,4 +24,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-end 
+  batch_badge_creater(attendees)
+  assign_rooms(attendees)
+end
