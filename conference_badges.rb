@@ -13,10 +13,12 @@ def batch_badge_creator(name_array)
 end
 
 def assign_rooms(attendees)
+  floorplan = []
   rooms = 0
   while rooms < 7
     name = attendees[rooms]
-    puts "Hello, #{name}! You'll be assigned to #{rooms + 1}!"
+    floorplan << "Hello, #{name}! You'll be assigned to #{rooms + 1}!"
     rooms += 1
   end
+  floorplan
 end
