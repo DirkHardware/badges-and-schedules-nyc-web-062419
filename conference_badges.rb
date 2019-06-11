@@ -22,3 +22,6 @@ def assign_rooms(attendees)
   end
   floorplan
 end
+
+def printer(attendees)
+end 
