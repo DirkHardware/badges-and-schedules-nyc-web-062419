@@ -17,6 +17,6 @@ def assign_rooms(attendees)
   while rooms < 7
     name = attendees[rooms]
     "Hello, #{name}! You'll be assigned to #{rooms + 1}!"
-
+    rooms += 1
   end
 end
