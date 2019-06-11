@@ -31,5 +31,5 @@ def printer(attendees)
     puts list1[guest_num]
     puts list2[guest_num]
     guest_num += 1
-
+  end
 end
