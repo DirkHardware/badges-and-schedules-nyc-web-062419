@@ -18,4 +18,5 @@ def assign_rooms(attendees)
     index = attendees.index(element)
     index += 1
     puts "#{name}, #{index}"
+  end
 end
