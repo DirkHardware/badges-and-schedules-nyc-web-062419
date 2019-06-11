@@ -15,7 +15,7 @@ end
 def assign_rooms(attendees)
   floorplan = []
   rooms = 0
-  while rooms < attendees.length 
+  while rooms < attendees.length
     name = attendees[rooms]
     floorplan << "Hello, #{name}! You'll be assigned to room #{rooms + 1}!"
     rooms += 1
