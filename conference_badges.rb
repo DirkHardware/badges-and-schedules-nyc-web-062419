@@ -29,4 +29,5 @@ def printer(attendees)
   end
   assign_room.each_line do |line2|
     puts |line2|
+  end
 end
