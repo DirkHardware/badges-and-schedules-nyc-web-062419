@@ -32,4 +32,5 @@ def printer(attendees)
   end
   list2.each do |room|
     puts |room|
+  end
 end
